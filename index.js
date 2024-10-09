@@ -2,8 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
-import moviesRouter from "./routes/movies.js";
-import bookingsRouter from "./routes/bookings.js";
+import moviesRouter from "./routes/Movies.js";
+import bookingsRouter from "./routes/Bookings.js";
 import authRouter from "./routes/auth.js";
 
 dotenv.config();
